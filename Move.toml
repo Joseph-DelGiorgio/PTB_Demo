@@ -1,0 +1,9 @@
+[package]
+name = "PTB_Demo"
+version = "0.1.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+example = "0xd0f4d1c20eac16a2e46eb82846a1c951ce70c9a5544f8a33747c0446ff36310b"

@@ -1,0 +1,19 @@
+{
+  "name": "sui_move_smart_contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm scripts/interact_with_contract.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
